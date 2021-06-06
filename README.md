@@ -3,7 +3,7 @@ An automation web crawling framework for retrieving parliamentary questions on T
 
 
 <p align="center">
-  <img width="700" height="500" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image1.png" >
+  <img width="400" height="200" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image1.png" >
 </p>
 
 
@@ -33,7 +33,7 @@ An automation web crawling framework for retrieving parliamentary questions on T
 ### What legisCrawler Scrape
 
 <p align="center">
-  <img width="700" height="500" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image3.png" >
+  <img width="500" height="300" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image3.png" >
 </p>
 
 
