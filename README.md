@@ -15,10 +15,21 @@ An automation web crawling framework for retrieving parliamentary questions on T
   <img width="700" height="500" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image1.png" >
 </p>
 
-### Before Running the Scraper
+### Installation
 - install [ChromeDriver 91.0.4472.19](https://sites.google.com/chromium.org/driver/downloads) in working directory
 - Suggest installing above mentioned package via importing `webscrae_env.yml` in Anaconda Navigator. Or you could set up the environment by reading `requirements.txt` using conda.
 
 
+### Where & What the Web Crawler Work
 
+
+
+<p align="center">
+  <img width="700" height="500" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image2.png" >
+</p>
+
+
+<p align="center">
+  <img width="700" height="500" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image3.png" >
+</p>
 
