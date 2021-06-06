@@ -26,7 +26,7 @@ An automation web crawling framework for retrieving parliamentary questions on T
 
 
 <p align="center">
-  <img width="700" height="250" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image4.png" >
+  <img width="700" height="220" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image4.png" >
 </p>
 
 
