@@ -22,7 +22,7 @@ An automation web crawling framework for retrieving parliamentary questions on T
 
 ## Installation
 - Install [ChromeDriver 91.0.4472.19](https://sites.google.com/chromium.org/driver/downloads) in working directory.
-- Suggest installing above mentioned package via importing `webscrae_env.yml` in `Anaconda Navigator` or build up the environment by inserting `requirements.txt` using conda.
+- Suggest installing the packages mentioned above via importing `webscrae_env.yml` in Anaconda Navigator or build up the environment by inserting `requirements.txt` using conda.
 
 ## Workflow in the legisCrawler
 
