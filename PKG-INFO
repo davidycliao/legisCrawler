@@ -1,0 +1,12 @@
+Metadata-Version: 0.1
+Name: legisCrawler
+Version: 0.1
+Summary: An Automation Webcrawling Toolkit for retrieving Taiwan Parliamentary Questions
+Home-page: https://github.com/davidycliao/legisCrawler
+Maintainer: David, Yen-Chieh Liao
+Maintainer-email: davidycliao@gmail.com
+License: MIT License
+Description: An automation web crawling framework for retrieving parliamentary questions on The Website of Taiwan
+Legislative Yuan 立法院 (https://lis.ly.gov.tw/) based on Selenium library in Python and Chrome browser.
+Keywords: legislative-yuan,parliamentary-questions,Selenium
+Platform:
