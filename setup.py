@@ -40,7 +40,7 @@ setup(name='legisCrawler',
       install_requires=[
           'numpy>1.16.2',
           'scipy>=1.5.1',
-          'pandas=0.24.2',
+          'pandas',
           'matplotlib',
           'selenium',
           'webdriver_manager'

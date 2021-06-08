@@ -22,11 +22,8 @@ An automation web crawling framework for retrieving parliamentary questions on T
 - Install [ChromeDriver 91.0.4472.19](https://sites.google.com/chromium.org/driver/downloads) in working directory. 
 - Suggest installing the packages mentioned above via importing `webscrae_env.yml` in `Anaconda Navigator` or build up the environment by inserting `requirements.txt` using conda. 
 
-<<<<<<< Updated upstream
 ## Workflow in the legisCrawler
 
-=======
->>>>>>> Stashed changes
 <p align="center">
   <img width="700" height="220" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image4.png" >
 </p>
@@ -40,18 +37,20 @@ This designed crawler automatically webscrapes the parliamentary questions (專�
 
 ## Basic Usage
 
-- Download the repository via Github 
-- or simplily importing a Git repository using the command line, see [GitHub Doc](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-git-repository-using-the-command-line).
+- Download the repository or simplily importing a Git repository using the command line, see [GitHub Doc](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-git-repository-using-the-command-line).
 
 ```
 $ git clone --bare git@github.com:davidycliao/legisCrawler.git
 # 
 Makes a bare clone of the external repository in a local directory
 ```
+- You will need to use [chromedriver](https://chromedriver.chromium.org/downloads) to assist you with scraping the data.
+- Open it with a project/package format(`Pycharm` recommended). 
+- Run it in the terminal 
+- Then you will be asked which term you would like to scrape.
+
+
 ## Note
+If there’s anything you need about the application and end-to-end use, please don’t hesitate to send me a message.
 
-<<<<<<< Updated upstream
-If there’s anything you need about the application, do not hesitate to send me a message.
-=======
 
->>>>>>> Stashed changes
