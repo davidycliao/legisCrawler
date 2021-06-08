@@ -37,7 +37,7 @@ This designed crawler automatically webscrapes the parliamentary questions (專�
 
 ## Basic Usage
 
-- Download the repository or simplily importing a Git repository using the command line, see [GitHub Doc](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-git-repository-using-the-command-line).
+- Download the repository or importing a Git repository using the command line, see [GitHub Doc](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-git-repository-using-the-command-line).
 
 ```
 $ git clone --bare git@github.com:davidycliao/legisCrawler.git
@@ -45,12 +45,12 @@ $ git clone --bare git@github.com:davidycliao/legisCrawler.git
 Makes a bare clone of the external repository in a local directory
 ```
 - You will need to use [chromedriver](https://chromedriver.chromium.org/downloads) to assist you with scraping the data.
-- Open it with a project/package format(`Pycharm` recommended). 
-- Run it in the terminal 
-- Then you will be asked which term you would like to scrape.
+- Run it in the terminal via the environment set up via `Anaconda Navigator`
+- Then you will be asked which term (2nd - 10th) you would like to scrape.
 
 
 ## Note
-If there’s anything you need about the application and end-to-end use, please don’t hesitate to send me a message.
+If there’s anything you need about the application and end-to-end use, please don’t hesitate to send me a message in [Discussion](https://github.com/davidycliao/legisCrawler/discussions) 📣. 
+
 
 
