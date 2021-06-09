@@ -25,17 +25,24 @@ An automation web crawling framework for retrieving parliamentary questions on T
 git clone  git@github.com:davidycliao/legisCrawler.git
 ```
 
-- Copy and paste the commands as below:
+- Copy the commands as below them in the terminal:
 ```
 # Change the directory by typing `cd` command once `legisCrawler` repository is downloaded.
 cd legisCrawler
-# Create the enviroment by using conda and name the enviroment as `legisCrawler`.
+# Create the enviroment by using conda and name the enviroment `legisCrawler`.
 conda create -n legisCrawler python=3.7 
 # Activate the pre-named enviroment. 
 conda activate legisCrawler 
 # Install the dependencies from `requirements.txt` using `pip` methond.
 pip install -r requirements.txt   
 ```
+
+- Run `legisCrawler` in your Python:
+```
+# Note: you need to run it in the terminal where you activated the enviroment.
+python legisCrawler.py
+```
+
 
 - When **legisCrawler** is running, you will be asked which term (2nd - 10th) you would like to scrape (please, type any single digit from 2 to 10). Then **legisCrawler** will automatically create a folder to restore the retrieval of parliamentary questions by the individual legislators.  
 
