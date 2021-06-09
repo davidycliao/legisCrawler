@@ -1,6 +1,5 @@
 # legisCrawler: An Automation Webcrawling Toolkit for Taiwan Parliamentary Questions
 
-
 An automation web crawling framework for retrieving parliamentary questions on The Website of Taiwan Legislative Yuan 立法院 (https://lis.ly.gov.tw/) based on Selenium library in Python and Chrome browser. 
 
 
@@ -11,11 +10,13 @@ An automation web crawling framework for retrieving parliamentary questions on T
 
 
 ## Requirements
+- python=3.7.3
+- pip=19.0
 - numpy=1.16.2
 - pandas=0.24.2
 - matplotlib=3.0.3
 - selenium
-- webdriver_manager
+- webdriver-manager
 
 ## Installation
 - Suggest to use [Anaconda Navigator](https://www.anaconda.com/products/individual-b) and [Python 3.8.1](https://www.python.org/downloads/release/python-3810/) 🐍 .
