@@ -22,14 +22,14 @@ An automation web crawling framework for retrieving parliamentary questions on T
 - Install [ChromeDriver 91.0.4472.19](https://sites.google.com/chromium.org/driver/downloads) in working directory. 
 - Suggest installing the packages mentioned above via importing `webscrae_env.yml` in `Anaconda Navigator` or build up the environment by inserting `requirements.txt` using conda. 
 
-## Workflow in the legisCrawler
+## Workflow in the **legisCrawler**
 
 <p align="center">
   <img width="700" height="220" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image4.png" >
 </p>
 
 
-## What legisCrawler Scrapes
+## What **legisCrawler** Scrapes
 This designed crawler automatically webscrapes the parliamentary questions (專案質詢) from The Website of Legislative Yuan, including a bunch of information with regards to the topic, keywords and the type. 
 <p align="center">
   <img width="700" height="500" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image3.png" >
@@ -49,7 +49,7 @@ Makes a bare clone of the external repository in a local directory
 - Run `python legisCrawler.py` in your terminal command line 
 
 
-- When the legisCrawler is running,  you will be asked which term (2nd - 10th) you would like to scrape. Then legisCrawler will automatically create a folder for restoring the parliamentary questions by the individual legislators.  
+- When **legisCrawler** is running,  you will be asked which term (2nd - 10th) you would like to scrape. Then **legisCrawler** will automatically create a folder for restoring the parliamentary questions by the individual legislators.  
 
 ## Note
 If there’s anything you need about the application and end-to-end use, please don’t hesitate to send me a message in [Discussion](https://github.com/davidycliao/legisCrawler/discussions) 📣. 
