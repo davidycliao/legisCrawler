@@ -50,7 +50,7 @@ Makes a bare clone of the external repository in a local directory
 - Run `python legisCrawler.py` in your terminal command line 
 
 
-- When **legisCrawler** is running,  you will be asked which term (2nd - 10th) you would like to scrape. Then **legisCrawler** will automatically create a folder for restoring the parliamentary questions by the individual legislators.  
+- When **legisCrawler** is running, you will be asked which term (2nd - 10th) you would like to scrape (please, type digit number from 2 o 10). Then **legisCrawler** will automatically create a folder to restoring the parliamentary questions by the individual legislators.  
 
 ## Note
 If there’s anything you need about the application and end-to-end use, please don’t hesitate to send me a message in [Discussion](https://github.com/davidycliao/legisCrawler/discussions) 📣. 
