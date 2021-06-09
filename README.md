@@ -9,6 +9,7 @@ An automation web crawling framework for retrieving parliamentary questions on T
 
 
 ## Requirements
+
 - python>=3.7.3 🐍
 - pip>=19.2
 - numpy=1.16.2
@@ -17,7 +18,7 @@ An automation web crawling framework for retrieving parliamentary questions on T
 - selenium
 - webdriver-manager
 
-## Installation Instruction
+## Instruction
 
 - Need to install [Anaconda Navigator](https://www.anaconda.com/products/individual-b) and [Python>=3.7.3](https://www.python.org/downloads/release/python-3810/) beforehand. And then, open the terminal and download `legisCrawler` repository by using `git clone`(about how to use git and Github, please have a look at this [Tutorial for Beginners](https://www.youtube.com/watch?v=RvnM6EEwp1I) )
 ```
@@ -39,7 +40,7 @@ pip install -r requirements.txt
 - When **legisCrawler** is running, you will be asked which term (2nd - 10th) you would like to scrape (please, type any single digit from 2 to 10). Then **legisCrawler** will automatically create a folder to restore the retrieval of parliamentary questions by the individual legislators.  
 
 
-## Workflow in the **legisCrawler**
+## Workflow 
 
 <p align="center">
   <img width="700" height="220" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image4.png" >
@@ -57,7 +58,7 @@ This designed crawler automatically webscrapes the parliamentary questions (專�
 If there’s anything you need about the application, please don’t hesitate to send me a message in [Discussion](https://github.com/davidycliao/legisCrawler/discussions) 📣. 
 
 
-## How to Cite:
+## Cite
 
 For citing this work, you can refer to the present GitHub project. For example, with BibTeX:
 ```
