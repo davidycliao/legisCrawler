@@ -30,7 +30,7 @@ git clone  git@github.com:davidycliao/legisCrawler.git
 cd legisCrawler
 ```
 
-- Create the enviroment by using conda and I name enviroment as `legisCrawler`.
+- Create the enviroment by using conda and name the enviroment as `legisCrawler`.
 ```
 conda create -n legisCrawler python=3.7      
 ```
@@ -40,7 +40,7 @@ conda create -n legisCrawler python=3.7
 ```
 conda activate legisCrawler                 
 ```
-- Install the dependencies packages using `pip` methond.
+- Install the dependencies using `pip` methond.
 
 ```
 pip install -r requirements.txt             
