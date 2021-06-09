@@ -1,6 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# ------------------------------------------------------------------------------------------ #
+# @author: davidycliao                                                                       #
+# @email: davidycliao@gmail.com                                                              #
+# @date: 9-May-2021                                                                          #
+# @info: An Automation Webcrawling Toolkit for Taiwan Parliamentary Questions                #
+# ------------------------------------------------------------------------------------------ #
+
+
 import re
 import time
 import os
