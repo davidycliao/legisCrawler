@@ -58,6 +58,7 @@ If there’s anything you need about the application, please don’t hesitate to
 
 
 ## How to Cite:
+
 For citing this work, you can refer to the present GitHub project. For example, with BibTeX:
 ```
 @misc{legisCrawler,
