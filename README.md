@@ -19,35 +19,23 @@ An automation web crawling framework for retrieving parliamentary questions on T
 
 ## Installation Instruction
 
-Need to install [Anaconda Navigator](https://www.anaconda.com/products/individual-b) and [Python>=3.7.3](https://www.python.org/downloads/release/python-3810/) beforehand. And then, open the terminal and download this repository by typing the command as below:
+- Need to install [Anaconda Navigator](https://www.anaconda.com/products/individual-b) and [Python>=3.7.3](https://www.python.org/downloads/release/python-3810/) beforehand. And then, open the terminal and download this repository by typing the command as below:
 ```
 git clone  git@github.com:davidycliao/legisCrawler.git
 ```
 
-Change the directory by typing `cd` command once `legisCrawler` repository is download.
+- Copy and paste the command below:
 ```
+# Change the directory by typing `cd` command once `legisCrawler` repository is download
 cd legisCrawler
+# Create the enviroment by using conda and name the enviroment as `legisCrawler`.
+conda create -n legisCrawler python=3.7 
+# Activate the pre-named enviroment. 
+conda activate legisCrawler 
+# Install the dependencies from `requirements.txt` using `pip` methond.
+pip install -r requirements.txt   
 ```
 
-Create the enviroment by using conda and name the enviroment as `legisCrawler`.
-```
-conda create -n legisCrawler python=3.7      
-```
-
-Activate the pre-named enviroment. 
-```
-conda activate legisCrawler                 
-```
-
-Install the dependencies from `requirements.txt` using `pip` methond.
-```
-pip install -r requirements.txt             
-```
-
-Last, run the `legisCrawler` in the terminal. 
-```
-python legisCrawler.py
-```
 
 ## Workflow in the **legisCrawler**
 
