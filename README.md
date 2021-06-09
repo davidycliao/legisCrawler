@@ -36,7 +36,7 @@ conda activate legisCrawler
 pip install -r requirements.txt   
 ```
 
-- When **legisCrawler** is running, you will be asked which term (2nd - 10th) you would like to scrape (please, type digit number from 2 to 10). Then **legisCrawler** will automatically create a folder to restore the retrieval of parliamentary questions by the individual legislators.  
+- When **legisCrawler** is running, you will be asked which term (2nd - 10th) you would like to scrape (please, type any single digit from 2 to 10). Then **legisCrawler** will automatically create a folder to restore the retrieval of parliamentary questions by the individual legislators.  
 
 
 ## Workflow in the **legisCrawler**
