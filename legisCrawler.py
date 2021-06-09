@@ -25,6 +25,7 @@ options.add_experimental_option('useAutomationExtension', False)
 
 def main():
     term = input('Term :')
+    # create a folder for restoring parliarmentary questions by individual legislator
     legislators = []
     with open("legislators/" + term + ".txt", "r") as f:
         for line in f:
@@ -43,7 +44,9 @@ def main():
         df=pd.DataFrame(columns=['date', 'legislator', 'title', 'category','topic','keywords', 'ques_type', 'link_href'])
 
         # activate Chrome webdriver
-        driver = webdriver.Chrome('./chromedriver', options=options)
+        # driver = webdriver.Chrome('./chromedriver', options=options)
+        driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+
         driver.implicitly_wait(60)
 
         # click to the term 『立法菁英』
