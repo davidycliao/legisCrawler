@@ -29,10 +29,13 @@ git clone  git@github.com:davidycliao/legisCrawler.git
 ```
 # Change the directory by typing `cd` command once `legisCrawler` repository is downloaded.
 cd legisCrawler
+
 # Create the enviroment by using conda and name the enviroment `legisCrawler`.
 conda create -n legisCrawler python=3.7 
+
 # Activate the pre-named enviroment. 
 conda activate legisCrawler 
+
 # Install the dependencies from `requirements.txt` using `pip` methond.
 pip install -r requirements.txt   
 ```
