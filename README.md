@@ -35,7 +35,7 @@ This designed crawler automatically webscrapes the parliamentary questions (å°ˆæ
   <img width="700" height="500" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image3.png" >
 </p>
 
-## Basic Usage
+## Instruction
 
 - Download the repository or importing a Git repository using the command line, see [GitHub Doc](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-git-repository-using-the-command-line).
 
