@@ -44,10 +44,12 @@ $ git clone --bare git@github.com:davidycliao/legisCrawler.git
 # 
 Makes a bare clone of the external repository in a local directory
 ```
-- You will need to use [chromedriver](https://chromedriver.chromium.org/downloads) to assist you with scraping the data.
-- Run it in the terminal via the environment set up via `Anaconda Navigator`
-- Then you will be asked which term (2nd - 10th) you would like to scrape.
+- You will need to install [chromedriver](https://chromedriver.chromium.org/downloads) in your working directory to run legisCrawler.
+- Run it in the terminal via the environment set up via `Anaconda Navigator`.
+- Run `python legisCrawler.py` in your terminal command line 
 
+
+- When the legisCrawler is running,  you will be asked which term (2nd - 10th) you would like to scrape. Then legisCrawler will automatically create a folder for restoring the parliamentary questions by the individual legislators.  
 
 ## Note
 If there’s anything you need about the application and end-to-end use, please don’t hesitate to send me a message in [Discussion](https://github.com/davidycliao/legisCrawler/discussions) 📣. 
