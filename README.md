@@ -28,7 +28,7 @@ An automation web crawling framework for retrieving parliamentary questions on T
 git clone  git@github.com:davidycliao/legisCrawler.git
 ```
 
-- Copy the commands as below them in the terminal:
+- Copy the commands  below and paste them into the terminal:
 ```
 # Change the directory by typing `cd` command once `legisCrawler` repository is downloaded.
 cd legisCrawler
