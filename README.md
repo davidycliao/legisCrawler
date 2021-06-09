@@ -35,6 +35,7 @@ conda activate legisCrawler
 # Install the dependencies from `requirements.txt` using `pip` methond.
 pip install -r requirements.txt   
 ```
+- When **legisCrawler** is running, you will be asked which term (2nd - 10th) you would like to scrape (please, type digit number from 2 o 10). Then **legisCrawler** will automatically create a folder to restoring the parliamentary questions by the individual legislators.  
 
 
 ## Workflow in the **legisCrawler**
@@ -50,8 +51,6 @@ This designed crawler automatically webscrapes the parliamentary questions (專�
   <img width="700" height="500" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image3.png" >
 </p>
 
-
-- When **legisCrawler** is running, you will be asked which term (2nd - 10th) you would like to scrape (please, type digit number from 2 o 10). Then **legisCrawler** will automatically create a folder to restoring the parliamentary questions by the individual legislators.  
 
 ## Note
 If there’s anything you need about the application and end-to-end use, please don’t hesitate to send me a message in [Discussion](https://github.com/davidycliao/legisCrawler/discussions) 📣. 
