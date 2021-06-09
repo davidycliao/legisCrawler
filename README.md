@@ -48,7 +48,8 @@ pip install -r requirements.txt
 
 
 ## What **legisCrawler** Scrapes
-This designed crawler automatically webscrapes the parliamentary questions (專案質詢) from The Website of Legislative Yuan, including a bunch of information with regards to the topic, keywords and the type. 
+This designed crawler automatically webscrapes the parliamentary questions (專案質詢) from The Website of Legislative Yuan, including a bunch of information with regards to the topic, keywords and the type. An additional module for getting a corpus of grand parliamentary debates (總質詢) is in progress and will be available soon.
+
 <p align="center">
   <img width="700" height="500" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image3.png" >
 </p>
