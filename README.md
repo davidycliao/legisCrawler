@@ -11,7 +11,7 @@ An automation web crawling framework for retrieving parliamentary questions on T
 
 ## Requirements
 - python=3.7.3
-- pip=19.0
+- pip>=19.2
 - numpy=1.16.2
 - pandas=0.24.2
 - matplotlib=3.0.3
