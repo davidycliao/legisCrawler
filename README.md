@@ -19,9 +19,7 @@ An automation web crawling framework for retrieving parliamentary questions on T
 
 ## Installation Instruction
 
-- Need to install [Anaconda Navigator](https://www.anaconda.com/products/individual-b) and [Python>=3.7.3](https://www.python.org/downloads/release/python-3810/) 🐍 beforehand.
-
-- Open the terminal and down load this repository by typing the command as below:
+- Need to install [Anaconda Navigator](https://www.anaconda.com/products/individual-b) and [Python>=3.7.3](https://www.python.org/downloads/release/python-3810/) 🐍 beforehand. And then, open the terminal and down load this repository by typing the command as below:
 ```
 git clone  git@github.com:davidycliao/legisCrawler.git
 ```
