@@ -57,4 +57,15 @@ This designed crawler automatically webscrapes the parliamentary questions (專�
 If there’s anything you need about the application, please don’t hesitate to send me a message in [Discussion](https://github.com/davidycliao/legisCrawler/discussions) 📣. 
 
 
+## How to Cite:
+For citing this work, you can refer to the present GitHub project. For example, with BibTeX:
+```
+@misc{legisCrawler,
+    howpublished = {\url{https://github.com/davidycliao/PorkCNN}},
+    title = {An Automation Webcrawling Toolkit for Taiwan Parliamentary Questions},
+    author = {David, Yen-Chieh Liao  Calvin Yu-Ceng Liao},
+    publisher = {GitHub},
+    year = {2021}
+}
+```
 
