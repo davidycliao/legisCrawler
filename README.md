@@ -69,7 +69,7 @@ This designed crawler automatically webscrapes the parliamentary questions (專�
 
 
 ## Note
-If there’s anything you need about the application, please don’t hesitate to send me a message in [Discussion](https://github.com/davidycliao/legisCrawler/discussions) 📣. 
+If there’s anything you need about the application, please don’t hesitate to post a message in [Discussion](https://github.com/davidycliao/legisCrawler/discussions) 📣. 
 
 
 ## Cite
