@@ -1,4 +1,4 @@
-# legisCrawler: An Automation Webcrawling Toolkit for Retrieving  Taiwan Parliamentary Questions
+# legisCrawler: An Automation Webcrawling Toolkit for Retrieving  Taiwan Parliamentary Questions 🛠️🧰
 
 An automation web crawling framework for retrieving parliamentary questions on The Website of Taiwan Legislative Yuan 立法院 (https://lis.ly.gov.tw/) based on Selenium library in Python and Chrome browser. 
 
