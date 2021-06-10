@@ -1,4 +1,4 @@
-# legisCrawler: An Automation Webcrawling Toolkit for Taiwan Parliamentary Questions
+# legisCrawler: An Automation Webcrawling Toolkit for Retrieving  Taiwan Parliamentary Questions 🛠️🧰
 
 An automation web crawling framework for retrieving parliamentary questions on The Website of Taiwan Legislative Yuan 立法院 (https://lis.ly.gov.tw/) based on Selenium library in Python and Chrome browser. 
 
@@ -28,7 +28,7 @@ An automation web crawling framework for retrieving parliamentary questions on T
 git clone  git@github.com:davidycliao/legisCrawler.git
 ```
 
-- Copy the commands as below them in the terminal:
+- Copy the commands  below and paste them into the terminal:
 ```
 # Change the directory by typing `cd` command once `legisCrawler` repository is downloaded.
 cd legisCrawler
@@ -50,7 +50,7 @@ python legisCrawler.py
 ```
 
 
-- When **legisCrawler** is running, you will be asked which term (2nd - 10th) you would like to scrape (please, type any single digit from 2 to 10). Then **legisCrawler** will automatically create a folder to restore the retrieval of parliamentary questions by the individual legislators.  
+- When **legisCrawler** is running, you will be asked which term (2nd - 10th) you would like to scrape (please, type any single digit from 2 to 10). Then **legisCrawler** will automatically create a folder to restore the retrieval of parliamentary questions by the individual legislator.  
 
 
 ## Workflow 
@@ -78,7 +78,7 @@ For citing this work, you can refer to the present GitHub project. For example, 
 ```
 @misc{legisCrawler,
     howpublished = {\url{https://github.com/davidycliao/PorkCNN}},
-    title = {An Automation Webcrawling Toolkit for Taiwan Parliamentary Questions},
+    title = {An Automation Webcrawling Toolkit for Retrieving  Taiwan Parliamentary Questions},
     author = {David Yen-Chieh Liao and Calvin Yu-Ceng Liao},
     publisher = {GitHub},
     year = {2021}
