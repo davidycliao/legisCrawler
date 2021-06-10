@@ -78,7 +78,7 @@ For citing this work, you can refer to the present GitHub project. For example, 
 ```
 @misc{legisCrawler,
     howpublished = {\url{https://github.com/davidycliao/PorkCNN}},
-    title = {An Automation Webcrawling Toolkit for Retrieving  Taiwan Parliamentary Questions},
+    title = {An Automation Webcrawling Toolkit for Retrieving Taiwan Parliamentary Questions},
     author = {David Yen-Chieh Liao and Calvin Yu-Ceng Liao},
     publisher = {GitHub},
     year = {2021}
