@@ -76,6 +76,7 @@ def main():
         try:
             driver.find_element_by_xpath("""//*[@id="pop02"]/a""").click()
             # try 『專案質詢』 exist or not, and then click to『專案質詢』
+            start_time = time.time()
             try:
                 driver.find_element_by_link_text("專案質詢").click()
                 for i in range(0,len(driver.find_elements_by_class_name("p_tab"))):
@@ -86,7 +87,6 @@ def main():
                 # click to row 『１』 to start
                 driver.find_element_by_xpath("""/html/body/form/table/tbody/tr[3]/td/table/tbody/tr[3]/td[2]/table/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr[2]/td[3]/a""").click()
 
-                start_time = time.time()
                 print(leg, 'has', num_rows, 'Q&As and is starting to be scraped at ',  time.strftime("%I %M %p",time.localtime(start_time)))
                 print('------------------------------------------------------------------------------------------------------------')
                 print('------------------------------------------------------------------------------------------------------------')
@@ -479,14 +479,14 @@ def main():
                         print(leg, "at page", i, "is not being included. at line 458")
 
                 # store scraped data from for-loop
-                df.to_csv(term + "th/" + leg + "_" + term +"th.csv")
+                df.to_csv(dirName + "/" + leg + "_" + term +".csv")
                 print(leg, "has", "green", num_rows, "Q&As and ", count, "failure.")
 
             except NoSuchElementException:
                 # empty data when clicking to 『專案質詢』
                 df = pd.DataFrame(columns = ['date', 'legislator', 'title', 'category','topic','keywords', 'ques_type', 'link_href'],
                                   data = np.array([[0, leg, 0, 0, 0, 0, 0, 0]]))
-                df.to_csv(dirName + "/" + leg + "_" + term + ".csv")
+                df.to_csv(dirName + "/" + leg + "_" + term +".csv")
                 # final print
                 print(leg, "has no 『專案質詢』")
 
