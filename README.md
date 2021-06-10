@@ -77,7 +77,7 @@ If there’s anything you need about the application, please don’t hesitate to
 For citing this work, you can refer to the present GitHub project. For example, with BibTeX:
 ```
 @misc{legisCrawler,
-    howpublished = {\url{https://github.com/davidycliao/PorkCNN}},
+    howpublished = {\url{https://github.com/davidycliao/legisCrawler}},
     title = {An Automation Webcrawling Toolkit for Retrieving Taiwan Parliamentary Questions},
     author = {David Yen-Chieh Liao and Calvin Yu-Ceng Liao},
     publisher = {GitHub},
