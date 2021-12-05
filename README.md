@@ -1,5 +1,7 @@
 # legisCrawler: An Automation Webcrawling Toolkit for Retrieving  Taiwan Parliamentary Questions 🛠️🧰
 
+[![CodeQL](https://github.com/davidycliao/legisCrawler/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/davidycliao/legisCrawler/actions/workflows/codeql-analysis.yml)
+
 An automation web crawling framework for retrieving parliamentary questions on The Website of Taiwan Legislative Yuan 立法院 (https://lis.ly.gov.tw/) based on Selenium library in Python and Chrome browser. 
 
 
