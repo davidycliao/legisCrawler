@@ -1,4 +1,4 @@
-# legisCrawler: An Automation Webcrawling Toolkit for Retrieving  Taiwan Parliamentary Questions 🛠️🧰
+## legisCrawler: An Automation Webcrawling Toolkit for Retrieving  Taiwan Parliamentary Questions 🛠️🧰
 
 [![CodeQL](https://github.com/davidycliao/legisCrawler/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/davidycliao/legisCrawler/actions/workflows/codeql-analysis.yml) [![CI](https://github.com/davidycliao/legisCrawler/actions/workflows/main.yml/badge.svg)](https://github.com/davidycliao/legisCrawler/actions/workflows/main.yml)
 
@@ -6,11 +6,11 @@ An automation web crawling framework for retrieving parliamentary questions on T
 
 
 <p align="center">
-  <img width="700" height="500" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image1.png" >
+  <img width="640" height="500" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image1.png" >
 </p>
 
 
-## Requirements
+### Requirements
 
 - python>=3.7.3 🐍
 - pip>=19.2
@@ -20,7 +20,7 @@ An automation web crawling framework for retrieving parliamentary questions on T
 - selenium
 - webdriver-manager
 
-## Instruction
+### Instruction
 
 - Need to install [Anaconda Navigator](https://www.anaconda.com/products/individual-b) and [Python>=3.7.3](https://www.python.org/downloads/release/python-3810/) beforehand. And then, open the terminal and download `legisCrawler` repository by using `git clone`.
 
@@ -46,6 +46,7 @@ pip install -r requirements.txt
 ```
 
 - Run `legisCrawler` in your Python:
+
 ```
 # Note: you need to run it in the terminal where you activated the enviroment.
 python legisCrawler.py
@@ -55,14 +56,15 @@ python legisCrawler.py
 - When **legisCrawler** is running, you will be asked which term (2nd - 10th) you would like to scrape (please, type any single digit from 2 to 10). Then **legisCrawler** will automatically create a folder to restore the retrieval of parliamentary questions by individual member.  
 
 
-## Workflow 
+### Workflow 
 
 <p align="center">
   <img width="700" height="220" src="https://raw.githack.com/davidycliao/legisCrawler/main/images/image4.png" >
 </p>
 
 
-## What **legisCrawler** Scrapes
+### What **legisCrawler** Scrapes
+
 This designed crawler automatically webscrapes the parliamentary questions (專案質詢) from The Website of Legislative Yuan, including a bunch of information with regards to the topic, keywords and the type. An additional module for getting a corpus of grand parliamentary debates (總質詢) is in progress and will be available soon.
 
 <p align="center">
@@ -70,11 +72,11 @@ This designed crawler automatically webscrapes the parliamentary questions (專�
 </p>
 
 
-## Note
+### Note
 If there’s anything you need about running `legisCrawler`, please don’t hesitate to post a message in [Discussion](https://github.com/davidycliao/legisCrawler/discussions) 📣. 如果有任何需要幫忙的地方，歡迎到留言在發問區，或者email 給我。我會抽空來幫忙解決問題！ 
 
 
-## Cite
+### Cite
 
 For citing this work, you can refer to the present GitHub project. For example, with BibTeX:
 ```

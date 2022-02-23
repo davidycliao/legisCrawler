@@ -1,0 +1,13 @@
+cff-version: 0.0.1
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Liao"
+  given-names: "David Yen-Chieh"
+  orcid: ""
+title: "legisCrawler: An Automation Webcrawling Toolkit for Retrieving  Taiwan Parliamentary Questions"
+version: 0.0.1
+doi: 
+date-released: 2022-01-10
+url: "https://github.com/davidycliao/legisCrawler"
+
+
