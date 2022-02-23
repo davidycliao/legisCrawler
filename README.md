@@ -31,7 +31,9 @@ git clone  git@github.com:davidycliao/legisCrawler.git
 ```
 
 - Copy the commands  below and paste them into the terminal:
+
 ```
+
 # Change the directory by typing `cd` command once `legisCrawler` repository is downloaded.
 cd legisCrawler
 
@@ -73,6 +75,7 @@ This designed crawler automatically webscrapes the parliamentary questions (專�
 
 
 ### Note
+
 If there’s anything you need about running `legisCrawler`, please don’t hesitate to post a message in [Discussion](https://github.com/davidycliao/legisCrawler/discussions) 📣. 如果有任何需要幫忙的地方，歡迎到留言在發問區，或者email 給我。我會抽空來幫忙解決問題！ 
 
 
